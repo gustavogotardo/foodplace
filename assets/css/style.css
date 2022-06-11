@@ -1,0 +1,13 @@
+body {
+    background: lightgrey;
+}
+
+#header {
+    background: lightskyblue;
+    height: 92px;
+    width: 100%;
+}
+
+#pageContent {
+    width: 100%;
+}
