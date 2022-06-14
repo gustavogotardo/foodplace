@@ -86,38 +86,36 @@ body {
     width: 144px;
     height: 87px;
     align-self: center;
-/*    margin: 18px 14px 111px 14px;*/
-/*    margin: 0 0 0 10px;*/
+    /*    margin: 18px 14px 111px 14px;*/
+    /*    margin: 0 0 0 10px;*/
     border-radius: 4px;
     object-fit: cover;
 }
 
 .name {
     font-family: 'Roboto';
-font-size: 16px;
-line-height: 19px;
-margin: 0 0 0 10px;
-color: #000000;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 0 10px;
+    color: #000000;
 }
 
 .description {
     height: 39px;
     font-family: 'Roboto';
-font-weight: 300;
-font-size: 15px;
-line-height: 18px;
-margin: 0 0 0 10px;
-color: #A6A6A6;
-
-
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0 0 0 10px;
+    color: #A6A6A6;
 }
 
 .price {
     font-family: 'Roboto';
-font-size: 16px;
-line-height: 19px;
-margin: 0 0 0 10px;
-color: #000000;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 0 10px;
+    color: #000000;
 }
 
 #footer {
