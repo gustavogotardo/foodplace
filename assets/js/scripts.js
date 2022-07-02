@@ -1,3 +1,10 @@
+let dishPrice,
+    drinkPrice,
+    dessertPrice,
+    dishName,
+    drinkName,
+    dessertName,
+    totalPrice;
 
 
 function toggleSelectedChoice(clickedChoice, type) {
@@ -16,3 +23,11 @@ function toggleSelectedChoice(clickedChoice, type) {
     }
     
 }
+
+function priceInBRL(price) {
+    price = price.replace("R$ ", "").replace(",", ".");
+    price = Number(price) * 100;
+    return price;
+}
+
+function selectDish()
