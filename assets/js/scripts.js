@@ -7,21 +7,37 @@ let dishPrice,
     totalPrice;
 
 
-function toggleSelectedChoice(clickedChoice, type) {
+function toggleSelectedDish(clickedChoice, type) {
     type = "." + type;
     const choice = document.querySelector(type).querySelector(".selectedChoice");
     console.log(choice)
-    if (!clickedChoice.classList.contains("selectedChoice")) {
-        if (choice !== null) {
-            choice.classList.toggle("selectedChoice");
-        }    
-        clickedChoice.classList.toggle("selectedChoice");
-    }
+    if (choice !== null) {
+        choice.classList.toggle("selectedChoice");
+    }    
+    clickedChoice.classList.toggle("selectedChoice");
+    activateOrderButton();
+}
 
-    else {
-        clickedChoice.classList.toggle("selectedChoice");
-    }
-    
+function toggleSelectedDrink(clickedChoice, type) {
+    type = "." + type;
+    const choice = document.querySelector(type).querySelector(".selectedChoice");
+    console.log(choice)
+    if (choice !== null) {
+        choice.classList.toggle("selectedChoice");
+    }    
+    clickedChoice.classList.toggle("selectedChoice");
+    activateOrderButton();
+}
+
+function toggleSelectedDessert(clickedChoice, type) {
+    type = "." + type;
+    const choice = document.querySelector(type).querySelector(".selectedChoice");
+    console.log(choice)
+    if (choice !== null) {
+        choice.classList.toggle("selectedChoice");
+    }    
+    clickedChoice.classList.toggle("selectedChoice");
+    activateOrderButton();
 }
 
 function priceInBRL(price) {
@@ -30,4 +46,6 @@ function priceInBRL(price) {
     return price;
 }
 
-function selectDish()
+function activateOrderButton() {
+
+}
